@@ -32,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
         txt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txt2.animate().scaleX(30f).setDuration(1000);
+                txt2.animate().translationX(-3000).setDuration(1000);
+
+
             }
         });
 
